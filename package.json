@@ -1,7 +1,7 @@
 {
   "name": "question-mark",
   "version": "0.0.0",
-  "description": "Small description for question-mark goes here",
+  "description": "This website is a question and answer message board where a user submits a question and other users can respond with answers",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -35,6 +35,7 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "~2.12.0",
     "ember-welcome-page": "^2.0.2",
+    "emberfire": "^2.0.6",
     "loader.js": "^4.2.3"
   },
   "engines": {

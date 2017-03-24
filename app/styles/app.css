@@ -1,3 +1,8 @@
+body {
+  background-color: #2a2e35;
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+}
 
  #navbar {
   top: 0;
@@ -40,4 +45,20 @@ a {
   text-align: center;
   font-size: 14px;
   font-family: 'Nothing You Could Do', cursive;
+}
+
+.indexContainer {
+  padding-left: 20%;
+}
+
+.indexList {
+  list-style: none;
+}
+
+.indexQuestion {
+  font-size: 1.25em;
+}
+
+.indexAuthor {
+  color: teal;
 }

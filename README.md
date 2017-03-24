@@ -57,12 +57,14 @@ You will need the following things properly installed on your computer.
 
 * index / homepage
 * application
-  * bootswatch
+  - bootswatch -mheh, it didn't hook up correctly. didn't want to waste too much time so decided to go with custom styling
   * nav bar w link to homepage
+  + style navbar & links + took longer than expected on links but the set-up is solid
   * icons on navbar
 * make firebase database
 * connect firebase to project
 * json file with seeded questions
++ ember install emberfire
 * question tile
 * question detail tile
 * routing

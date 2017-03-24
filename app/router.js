@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('create');
+  this.route('question');
 });
 
 export default Router;

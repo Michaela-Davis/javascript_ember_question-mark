@@ -12,3 +12,21 @@
     "author": "markDown"
   }]
 }
+
+var questions = [{
+    id: 1,
+    title: "How do you make a comeback after your boy band is no longer cool?",
+    notes: "I've already figured this out for myself, but I'd really like to hear what others think is the best solution.",
+    author: "markyMark"
+  }, {
+    id: 2,
+    title: "How do I break away from the one famous TV role I played?",
+    notes: "I really need to pay bills...",
+    author: "markPaul"
+  }, {
+    id: 3,
+    title: "How do I convince people I'm important?",
+    notes: "So many people do their README last, or skip it entirely.",
+    author: "markDown"
+  }]
+}
