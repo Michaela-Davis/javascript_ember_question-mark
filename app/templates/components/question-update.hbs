@@ -1,0 +1,21 @@
+  <div class="questionContainer">
+{{#if updateQuestionForm}}
+  <h3>Update ? :</h3>
+    <form>
+      <label for="title">Question:</label>
+      {{input value=title id="title" placeholder=question.title}}
+      <br><br>
+      <label for="notes">Notes:</label>
+      {{input value=notes id="notes" placeholder=question.notes}}
+      <br><br>
+      <label for="author">Author:</label>
+      {{input value=author id="author" placeholder=question.author}}
+      <br><br>
+      <button {{action 'update' question}} class="button">Save ?</button>
+    </form>
+{{else}}
+  <button class="button" {{action 'updateQuestionForm' question}}>
+  <span class="editQuestion"><i class="fa fa-pencil-square" aria-hidden="true"></i> Update ?</span>
+  </button>
+{{/if}}
+</div>

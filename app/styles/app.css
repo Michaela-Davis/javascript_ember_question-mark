@@ -35,15 +35,12 @@ a {
   font-size: 110%;
 }
 .footer {
-  display: block;
-  padding-bottom: 1%;
   margin-top: 75px;
-  font-size: 60%;
+  margin-left: 2%;
+  margin-bottom: 15%;
   position: absolute;
   bottom: 0px;
-  margin-left: 37%;
-  text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -87,4 +84,18 @@ input[type="text"] {
 
 .questionTile {
   text-decoration: none;
+}
+
+.teal {
+  color: teal;
+}
+
+i.fa-question-circle {
+  font-size: 60px;
+}
+
+.editQuestion {
+  text-align: right;
+  display: block;
+  padding-right: 40px;
 }
