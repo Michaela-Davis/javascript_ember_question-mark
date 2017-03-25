@@ -74,5 +74,14 @@ form,
 input[type="text"] {
     width: 800px;
     /*height: 50px;*/
-    font-size: 110%;
+    font-size: 100%;
+}
+
+.button {
+  border-radius: 10px;
+  font-size: 70%;
+  color: white;
+  background-color: teal;
+  font-family: 'Nothing You Could Do', cursive;
+  padding: 15px;
 }

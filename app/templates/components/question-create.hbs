@@ -1,18 +1,17 @@
 <div class="questionContainer">
 
-  <h2>Complete the following form to add a question!</h2>
-
+  <h3>Complete the following form to add a question!</h3>
   <form>
     <label for="title">Question:</label>
     {{input value=title id="title"}}
     <br><br>
-    <label for="username">Username:</label>
-    {{input value=username id="username"}}
-    <br><br>
     <label for="notes">Notes:</label>
     {{input value=notes id="notes"}}
     <br><br>
-    <button {{action 'saveQuestion1'}} class="button">Add New ?</button>
+    <label for="author">Author:</label>
+    {{input value=author id="author"}}
+    <br><br>
+    <button {{action 'saveQuestion'}} class="button">Save New ?</button>
   </form>
 
 </div>
