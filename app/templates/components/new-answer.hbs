@@ -1,0 +1,16 @@
+{{#if addNewAnswer}}
+<div class="questionContainer">
+  <h3>Complete the following form to add a question!</h3>
+  <form>
+    <label for="content">Answer:</label>
+    {{input value=content id="content"}}
+    <br><br>
+    <label for="author">Author:</label>
+    {{input value=author id="author"}}
+    <br><br>
+    <button {{action 'saveAnswer'}} class="button">Save</button>
+  </form>
+</div>
+{{else}}
+  <button {{action 'answerFormShow'}} class="button">New Answer</button>
+{{/if}}
