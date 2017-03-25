@@ -8,7 +8,7 @@ body {
   top: 0;
   float: left;
   position: fixed;
-  background-color: teal;
+  background-color: #0c4744;
   height: 100%;
   width: 15%;
   padding: 1%;
@@ -48,7 +48,7 @@ a {
 }
 
 .indexContainer {
-  padding-left: 20%;
+  padding-left: 18%;
 }
 
 .indexList {
@@ -57,8 +57,22 @@ a {
 
 .indexQuestion {
   font-size: 1.25em;
+  letter-spacing: 1px;
 }
 
 .indexAuthor {
   color: teal;
+}
+
+.questionContainer {
+  padding-left: 18%;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+form,
+input[type="text"] {
+    width: 800px;
+    /*height: 50px;*/
+    font-size: 110%;
 }

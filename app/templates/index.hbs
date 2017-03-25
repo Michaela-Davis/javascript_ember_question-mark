@@ -4,7 +4,7 @@
 
   <ul class="indexList">
     {{#each model as |question|}}
-    <li><span class="indexQuestion">{{question.title}}</span><span class="indexAuthor">  posted by {{question.author}}</span></li><br>
+      {{question-tile question=question}}
     {{/each}}
   </ul>
 
