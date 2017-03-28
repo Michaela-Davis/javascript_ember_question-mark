@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <https://github.com/Michaela-Davis/javascript_ember_question-mark.git>` this repository
+* `git clone https://github.com/Michaela-Davis/javascript_ember_question-mark.git`
 * `cd question-mark`
 * `npm install`
 * `bower install`
