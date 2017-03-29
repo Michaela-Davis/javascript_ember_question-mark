@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <https://github.com/Michaela-Davis/javascript_ember_question-mark.git>` this repository
+* `git clone https://github.com/Michaela-Davis/javascript_ember_question-mark.git`
 * `cd question-mark`
 * `npm install`
 * `bower install`
@@ -33,10 +33,6 @@ You will need the following things properly installed on your computer.
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -51,10 +47,6 @@ You will need the following things properly installed on your computer.
 * update generated README
 * add Planning to README
 * first commit
-
-* _Concentrate on MVP_
-* _Try pieces first without guidance (to mitigate imposter syndrome) then look at curriculum or 2 day project if it isn't working after a minimum of 5 minutes_
-
 * index / homepage
 * application
   - bootswatch -mheh, it didn't hook up correctly. didn't want to waste too much time so decided to go with custom styling
